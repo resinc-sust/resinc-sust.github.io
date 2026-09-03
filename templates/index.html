@@ -72,14 +72,26 @@
             </div>
         </nav>
         {% block content %}
-            <h1 style="color: #ffffff60">Latest Blogs</h1>
-            <main class="post-list">
-                <div class="posts-info-container">
-                    {% for post in section.pages %}
-                        {{ post_macro::post_info(post=post) }}
-                    {% endfor %}
+            <header class="home-hero">
+                <h2>Securing the Future.</h2>
+                <p>
+                    We are an independent research group dedicated to exploring the depths of cybersecurity, threat intelligence, and reverse engineering.
+                </p>
+                <div class="hero-buttons">
+                    <a href="/about" class="btn btn-primary">Learn More</a>
+                    <a href="/team" class="btn btn-secondary">Meet the Team</a>
                 </div>
-            </main>
+            </header>
+            <div>
+                <h2 style="color: #ffffff60; font-size: 24px; margin-bottom: 16px; border-bottom: 1px solid #ffffff20; padding-bottom: 12px;">Latest Blogs</h2>
+                <main class="post-list">
+                    <div class="posts-info-container">
+                        {% for post in section.pages %}
+                            {{ post_macro::post_info(post=post) }}
+                        {% endfor %}
+                    </div>
+                </main>
+            </div>
         {% endblock content %}
     </div>
 </body>
