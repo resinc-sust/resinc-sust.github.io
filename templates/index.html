@@ -8,7 +8,7 @@
     {% block social_media %}
     <meta property="og:image" content="{{ get_url(path="images/base_banner.png") }}" />
     {% endblock social_media %}
-    <title>{% block title %}mdgaziur/blog{% endblock title %}</title>
+    <title>{% block title %}ReSINC - Research in Security, Intelligence & Cyberthreat{% endblock title %}</title>
 
     <link rel="stylesheet" href="{{ get_url(path='main.css', trailing_slash=false) }}" />
 
@@ -16,6 +16,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- Ovo font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ovo&display=swap" rel="stylesheet">
 
     <!-- JetBrains Mono font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,14 +40,39 @@
 <body>
     <div class="main-container">
         <nav class="main-nav">
-            <h1>
-                <a style="color: white;" href="/">mdgaziur001</a>
-                /
-                <a style="color: white;" href="/blog">blog</a>
-            </h1>
-            <p>My ramblings about tech, life and other stuff.</p>
+            <div>
+                <a href="/" style="color: white">
+                    <h1 class="resinc-logo">
+                        <span>Re</span>SINC
+                    </h1>
+                </a>
+                <p class="nav-subtitle">
+                    Research in Security, Intelligence & Cyberthreat
+                </p>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Menu" onclick="document.querySelector('.main-nav').classList.toggle('drawer-open')">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <div class="drawer-overlay" onclick="document.querySelector('.main-nav').classList.remove('drawer-open')"></div>
+            <div class="nav-links">
+                <button class="menu-close" aria-label="Close Menu" onclick="document.querySelector('.main-nav').classList.remove('drawer-open')">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <a href="/achievements">Achievements</a>
+                <a href="/team">The Team</a>
+                <a href="/goal">Our Goal</a>
+                <a href="/about">About Us</a>
+            </div>
         </nav>
         {% block content %}
+            <h1 style="color: #ffffff60">Latest Blogs</h1>
             <main class="post-list">
                 <div class="posts-info-container">
                     {% for post in section.pages %}
