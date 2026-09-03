@@ -1,0 +1,24 @@
+name = "Zeshan Ahmed Nobin"
+role = "Founding President & Low-level Security Lead"
+tenure = "2022–2023"
+
+[now]
+where = "Alan Paller Scholar, MS in Information Security Engineering (ISE) at SANS Technology Institute"
+what  = "Lead Binary Exploitation and Exploit Development."
+
+[[links]]
+kind = "linkedin"
+url  = "https://www.linkedin.com/in/zeshanahmednobin/"
+
+[[links]]
+kind = "twitter"
+url  = "https://x.com/zeshan_nobin"
+
+[[links]]
+kind = "github"
+url  = "https://github.com/NobinPegasus"
+
+[[links]]
+kind = "website"
+url  = "https://nobinpegasus.github.io"
+label = "Personal site"

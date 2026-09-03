@@ -1,0 +1,19 @@
+name = "Irfan Nafiz Shahan"
+role = "Founding Member, Cryptography and OSINT Lead"
+tenure = "2022–2023"
+
+[now]
+where = "Lecturer in the Department of Electrical and Electronic Engineering at Shahjalal University of Science and Technology (SUST)"
+what  = "Contributed to Cryptography research."
+
+[[links]]
+kind = "linkedin"
+url  = "https://www.linkedin.com/in/irfan-nafiz-shahan/"
+
+[[links]]
+kind = "facebook"
+url  = "https://www.facebook.com/irfan.nafiz.shahan"
+
+[[links]]
+kind = "email"
+url  = "irfan.nafiz@example.com"

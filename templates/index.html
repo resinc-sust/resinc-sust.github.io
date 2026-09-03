@@ -1,4 +1,3 @@
-{% import "macros/post.html" as post_macro %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,6 +60,7 @@
                 </button>
                 <a href="/achievements">Achievements</a>
                 <a href="/team">The Team</a>
+                <a href="/alumni">Alumni</a>
                 <a href="/goal">Our Goal</a>
                 <a href="/about">About Us</a>
             </div>
@@ -81,7 +81,7 @@
                 <main class="post-list">
                     <div class="posts-info-container">
                         {% for post in section.pages %}
-                            {{ post_macro::post_info(post=post) }}
+                            {{< post_info post={post} />}}
                         {% endfor %}
                     </div>
                 </main>

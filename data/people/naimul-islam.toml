@@ -1,0 +1,19 @@
+name = "Naimul Islam"
+role = "Founding Vice President, Reverse Engineer and Digital Forensics Researcher"
+tenure = "2022–2024"
+
+[now]
+where = "Sr. Security Engineer at Axiler"
+what  = "Lead the CTF team, and contributed to Reverse Engineering research."
+
+[[links]]
+kind = "linkedin"
+url  = "https://www.linkedin.com/in/naimul-islam/"
+
+[[links]]
+kind = "github"
+url  = "https://github.com/naimul-islam"
+
+[[links]]
+kind = "email"
+url  = "naimul@example.com"

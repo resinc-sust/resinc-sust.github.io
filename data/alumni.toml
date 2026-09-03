@@ -1,0 +1,5 @@
+# Year -> list of person slugs (filenames under data/people/ without .toml)
+# Slugs use lowercase, hyphens; matches the filename exactly.
+"2019" = ["irfan-nafiz-shahan", "al-mubeen-nabil"]
+"2018" = ["naimul-islam", "md-ikram-hossain-mojumder"]
+"2017" = ["zeshan-ahmed-nobin"]

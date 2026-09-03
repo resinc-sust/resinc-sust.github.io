@@ -1,0 +1,15 @@
+name = "Al-Mubeen Nabil"
+role = "Founding Member, Miscellaneous and Web Lead"
+tenure = "2022–2023"
+
+[now]
+where = "R&D Engineer at Krait Labs"
+what  = "Contributed to Web research."
+
+[[links]]
+kind = "linkedin"
+url  = "https://www.linkedin.com/in/al-mubeen-nabil/"
+
+[[links]]
+kind = "github"
+url  = "https://github.com/almubeen"

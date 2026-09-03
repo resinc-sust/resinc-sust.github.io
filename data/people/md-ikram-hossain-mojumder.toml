@@ -1,0 +1,16 @@
+name = "Md. Ikram Hossain Mojumder"
+role = "Web Application Security Researcher"
+tenure = "2022–2024"
+
+[now]
+where = "Jr. Cyber Security Engineer at TechnoNext"
+what  = """Contributed to penetration testing and security assessments of third-party software procured by Shahjalal University of Science and Technology (SUST), identifying security vulnerabilities and validating security readiness prior to production deployment."""
+
+[[links]]
+kind = "linkedin"
+url  = "https://www.linkedin.com/in/ikram-hossain-mojumder/"
+
+[[links]]
+kind = "website"
+url  = "https://ikramhossain.example.com"
+label = "Personal site"
