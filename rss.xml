@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title></title>
+      <link>https://resinc-sust.github.io</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://resinc-sust.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Thu, 03 Sep 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>About Us</title>
+          <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+          <author>MD Gaziur Rahman Noor</author>
+          <link>https://resinc-sust.github.io/about/</link>
+          <guid>https://resinc-sust.github.io/about/</guid>
+          <description xml:base="https://resinc-sust.github.io/about/">&lt;h1 id=&quot;about-us&quot;&gt;About Us&lt;a class=&quot;zola-anchor&quot; href=&quot;#about-us&quot; aria-label=&quot;Anchor link for: about-us&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;ReSINC stands for &lt;strong&gt;Research in Security, Intelligence &amp;amp; Cyberthreat&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;We are an independent research group dedicated to exploring the depths of cybersecurity. Founded in 2024, our group has steadily grown into a hub for cutting-edge security research, focusing on threat intelligence, binary exploitation, and reverse engineering.&lt;/p&gt;
+&lt;p&gt;Whether you&#39;re a seasoned professional or a student looking to get into the field, we believe in sharing knowledge and pushing the boundaries of what&#39;s possible in infosec.&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>Achievements</title>
+          <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+          <author>MD Gaziur Rahman Noor</author>
+          <link>https://resinc-sust.github.io/achievements/</link>
+          <guid>https://resinc-sust.github.io/achievements/</guid>
+          <description xml:base="https://resinc-sust.github.io/achievements/">&lt;h1 id=&quot;our-achievements&quot;&gt;Our Achievements&lt;a class=&quot;zola-anchor&quot; href=&quot;#our-achievements&quot; aria-label=&quot;Anchor link for: our-achievements&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;We are proud of the work we have accomplished so far in the field of security and intelligence. Here are some of our major milestones:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;1st Place at CyberSec Hackathon 2025&lt;/strong&gt;: Developed a novel malware detection algorithm.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Published Research&lt;/strong&gt;: Our paper on &quot;Context Switching Vulnerabilities&quot; was accepted at DEF CON.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Community Award&lt;/strong&gt;: Recognized for outstanding contributions to open-source security tools.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stay tuned for more updates!&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>Alumni</title>
+          <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+          <author>MD Gaziur Rahman Noor</author>
+          <link>https://resinc-sust.github.io/alumni/</link>
+          <guid>https://resinc-sust.github.io/alumni/</guid>
+          <description xml:base="https://resinc-sust.github.io/alumni/">&lt;h1 id=&quot;alumni&quot;&gt;Alumni&lt;a class=&quot;zola-anchor&quot; href=&quot;#alumni&quot; aria-label=&quot;Anchor link for: alumni&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The full alumni listing is rendered by &lt;code&gt;templates/alumni.html&lt;/code&gt; from data files in &lt;code&gt;data/people/&lt;/code&gt;.&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>Our Goal</title>
+          <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+          <author>MD Gaziur Rahman Noor</author>
+          <link>https://resinc-sust.github.io/goal/</link>
+          <guid>https://resinc-sust.github.io/goal/</guid>
+          <description xml:base="https://resinc-sust.github.io/goal/">&lt;h1 id=&quot;our-goal&quot;&gt;Our Goal&lt;a class=&quot;zola-anchor&quot; href=&quot;#our-goal&quot; aria-label=&quot;Anchor link for: our-goal&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;At ReSINC, our primary goal is to advance the state of cybersecurity through rigorous research, open collaboration, and intelligence sharing.&lt;/p&gt;
+&lt;p&gt;We aim to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Identify&lt;/strong&gt; emerging cyber threats before they become mainstream.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Educate&lt;/strong&gt; the community on best practices for secure software development.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Develop&lt;/strong&gt; open-source tools to assist in threat hunting and intelligence gathering.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Together, we can build a more secure digital ecosystem.&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>Introducing ReSINC</title>
+          <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+          <author>MD Gaziur Rahman Noor</author>
+          <link>https://resinc-sust.github.io/introducing-resinc/</link>
+          <guid>https://resinc-sust.github.io/introducing-resinc/</guid>
+          <description xml:base="https://resinc-sust.github.io/introducing-resinc/">&lt;p&gt;We are extremely excited to officially announce the launch of &lt;strong&gt;ReSINC&lt;/strong&gt; — Research in Security, Intelligence &amp;amp; Cyberthreat.&lt;/p&gt;
+&lt;p&gt;Our group was formed with a simple mission: to explore the intricate depths of cybersecurity, conduct cutting-edge research, and share our intelligence with the community. As cyber threats evolve at an unprecedented pace, proactive research and open collaboration become our strongest defenses.&lt;/p&gt;
+&lt;h2 id=&quot;what-to-expect&quot;&gt;What to Expect?&lt;a class=&quot;zola-anchor&quot; href=&quot;#what-to-expect&quot; aria-label=&quot;Anchor link for: what-to-expect&quot;&gt;🔗&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;On this blog, we will be regularly publishing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Threat Intelligence Reports&lt;/strong&gt;: In-depth analysis of emerging malware, APT groups, and active campaigns.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vulnerability Research&lt;/strong&gt;: Detailed write-ups on zero-days, binary exploitation, and reverse engineering.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CTF Write-ups&lt;/strong&gt;: Walkthroughs and solutions for challenging Capture The Flag competitions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tool Releases&lt;/strong&gt;: Open-source utilities we develop for threat hunting and forensic analysis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We invite researchers, students, and professionals to join us on this journey. Stay tuned for our upcoming research publications and let&#39;s build a more secure future together!&lt;/p&gt;
+</description>
+      </item>
+      <item>
+          <title>The Team</title>
+          <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+          <author>MD Gaziur Rahman Noor</author>
+          <link>https://resinc-sust.github.io/team/</link>
+          <guid>https://resinc-sust.github.io/team/</guid>
+          <description xml:base="https://resinc-sust.github.io/team/">&lt;h1 id=&quot;the-team&quot;&gt;The Team&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-team&quot; aria-label=&quot;Anchor link for: the-team&quot;&gt;🔗&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;ReSINC is driven by a passionate group of researchers and cybersecurity enthusiasts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Alice Smith&lt;/strong&gt; - Lead Security Researcher&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bob Johnson&lt;/strong&gt; - Threat Intelligence Analyst&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Charlie Davis&lt;/strong&gt; - Reverse Engineering Specialist&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Diana Lee&lt;/strong&gt; - Cryptography Expert&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We collaborate to uncover new threats and build secure systems.&lt;/p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
