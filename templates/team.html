@@ -14,41 +14,31 @@
     {% endif %}
 {% endblock social_media %}
 
-{% block title %}Alumni | ReSINC - Research in Security, Intelligence & Cyberthreat{% endblock title %}
+{% block title %}Team | ReSINC - Research in Security, Intelligence & Cyberthreat{% endblock title %}
 
 {% block content %}
 <main class="post-container">
     <article class="post">
         <div class="post-content">
-            <h1>Alumni</h1>
-            <p>ReSINC has been shaped by many talented researchers who have moved on to new challenges. We're proud of their contributions and grateful for the time they spent with the group.</p>
-            {% set alumni = load_data(path="data/alumni.toml", format="toml") %}
-            {% set years = alumni | keys | sort | reverse %}
+            <h1>Team</h1>
+            <p>ReSINC is made up of researchers working across security, intelligence, and cyberthreat topics. Meet the people currently in the group below.</p>
+            {% set team = load_data(path="data/team.toml", format="toml") %}
+            {% set groups = team | keys | sort %}
 
-            {% for year in years %}
-                <h2 id="{{ year }}">{{ year }}</h2>
-                {% for slug in alumni[year] %}
-                    {% set person = load_data(path="data/people/" ~ slug ~ ".toml", format="toml") %}
+            {% for group in groups %}
+                <h2 id="{{ group | slugify }}">{{ group }}</h2>
+                {% for slug in team[group] %}
+                    {% set person = load_data(path="data/team/" ~ slug ~ ".toml", format="toml") %}
                     <div class="person-card">
                         <div class="person-card__head">
                             <h3 class="person-card__name">{{ person.name }}</h3>
-                            <p class="person-card__role">
-                                <em>{{ person.role }}</em>
-                                {% if person.tenure %}
-                                    <span class="person-card__tenure">({{ person.tenure }})</span>
-                                {% endif %}
-                            </p>
                         </div>
-                        {% if person.now %}
-                            <p class="person-card__now">
-                                <strong>Now:</strong> {{ person.now.where }}{% if person.now.where and not person.now.what %}.{% endif %}
-                                {% if person.now.what %} {{ person.now.what }}{% endif %}
-                            </p>
-                        {% endif %}
                         {% if person.links and person.links | length > 0 %}
                             <div class="person-card__links">
                                 {% for link in person.links %}
-                                    {{< social_link kind={link.kind} url={link.url} />}}
+                                    {% if link.kind and link.url %}
+                                        {{< social_link kind={link.kind} url={link.url} />}}
+                                    {% endif %}
                                 {% endfor %}
                             </div>
                         {% endif %}

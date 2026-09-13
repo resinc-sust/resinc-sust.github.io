@@ -1,18 +1,11 @@
 +++
-title = "The Team"
-description = "Meet the researchers behind ReSINC."
-date = 2026-09-03
+title = "Team"
+description = "Current members of ReSINC working across security, intelligence, and cyberthreat research."
+date = 2026-09-13
 path = "/team"
-template = "static.html"
+template = "team.html"
 +++
 
-# The Team
+# Team
 
-ReSINC is driven by a passionate group of researchers and cybersecurity enthusiasts. 
-
-- **Alice Smith** - Lead Security Researcher
-- **Bob Johnson** - Threat Intelligence Analyst
-- **Charlie Davis** - Reverse Engineering Specialist
-- **Diana Lee** - Cryptography Expert
-
-We collaborate to uncover new threats and build secure systems.
+The full team listing is rendered by `templates/team.html` from data files in `data/team/`.
