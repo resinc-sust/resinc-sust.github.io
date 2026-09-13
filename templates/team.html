@@ -1,0 +1,23 @@
+{% extends "index.html" %} {% block social_media %} {%if page.extra.social_media_banner %} {% else %} {% endif %} {% endblock social_media %} {% block title %}Team | ReSINC - Research in Security, Intelligence & Cyberthreat{% endblock title %} {% block content %}
+Team
+ReSINC is made up of researchers working across security, intelligence, and cyberthreat topics. Meet the people currently in the group below.
+
+Curious about our mission? See the About Us page, or take a look back at our alumni.
+
+{% set team = load_data(path="data/team.toml", format="toml") %} {% set groups = team | keys | sort %} {% for group in groups %}
+{{ group }}
+{% for slug in team[group] %} {% set person = load_data(path="data/people/" ~ slug ~ ".toml", format="toml") %}
+{{ person.name }}
+{{ person.role }} {% if person.since %} (since {{ person.since }}) {% endif %}
+
+{% if person.focus %}
+Focus: {{ person.focus }}
+
+{% endif %} {% if person.bio %}
+{{ person.bio }}
+
+{% endif %} {% if person.links and person.links | length > 0 %}
+{% for link in person.links %} {{< social_link kind={link.kind} url={link.url} />}} {% endfor %}
+{% endif %}
+{% endfor %} {% endfor %}
+{% endblock content %}
