@@ -1,0 +1,80 @@
+"2024":
+  - name: "Muhtasham Nawr al-Mahmud (Muhtaseem Al Mahmud Nawroj)"
+    tenure: "2025 - Present"
+    now:
+      where: "CISO, CQO and Co-founder @ Axcerus (2025 - Present)"
+      what: "" # TODO
+    links:
+      - kind: linkedin
+        url: https://www.linkedin.com/in/muhtaseem-al-mahmud/
+      - kind: github
+        url: https://github.com/mnalmahmud
+      - kind: twitter
+        url: https://x.com/mnalmahmud
+      - kind: website
+        label: "Personal site"
+        url: https://muhtashamnawr.github.io/ # TODO
+      - kind: email
+        url: muhtaseem2005@gmail.com
+  - name: "Md. Gaziur Rahman Noor"
+    tenure: "2025 - Present"
+    now:
+      where: "CEO and Co-founder @ Axcerus (2025 - Present), Junior Engineer @ Delineate (2026 - Present)"
+      what: "" # TODO
+    links:
+      - kind: linkedin
+        url: https://www.linkedin.com/in/mdgaziur/
+      - kind: github
+        url: https://github.com/mdgaziur
+      - kind: twitter
+        url: https://x.com/mdgaziur_
+      - kind: website
+        label: "Personal site"
+        url: https://mdgaziur001.me/
+      - kind: email
+        url: mdgaziurrahmannoor@gmail.com
+  - name: "Mafinur Karim"
+    tenure: "2025 - Present"
+    now:
+      where: ""
+      what: ""
+    links:
+      - kind: ""
+  - name: "Maruf Hasan Tanim"
+    tenure: "2026 - Present"
+    now:
+      where: ""
+      what: ""
+    links:
+      - kind: ""
+
+"2025":
+  - name: "TBD"
+    tenure: "2026 - Present"
+    now:
+      where: ""
+      what: ""
+    links:
+      - kind: ""
+  - name: "TBD"
+    tenure: "2026 - Present"
+    now:
+      where: ""
+      what: ""
+    links:
+      - kind: ""
+  - name: "TBD"
+    tenure: "2026 - Present"
+    now:
+      where: ""
+      what: ""
+    links:
+      - kind: ""
+  - name: "TBD"
+    tenure: "2026 - Present"
+    now:
+      where: ""
+      what: ""
+    links:
+      - kind: ""
+  

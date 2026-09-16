@@ -1,17 +1,17 @@
 {% extends "index.html" %}
 
 {% block social_media %}
-    {%if page.extra.social_media_banner %}
-        <meta property="og:title" content="{{ page.title }}" />
-        <meta property="twitter:title" content="{{ page.title }}" />
-        <meta property="og:description" content="{{ page.description }}" />
-        <meta property="og:description" content="{{ page.description }}" />
-        <meta property="twitter:image" content="{{ page.permalink ~ page.extra.social_media_banner }}" />
-        <meta property="og:image" content="{{ page.permalink ~ page.extra.social_media_banner }}" />
-    {% else %}
-        <meta property="twitter:image" content="{{ get_url(path="images/base_banner.png") }}" />
-        <meta property="og:image" content="{{ get_url(path="images/base_banner.png") }}" />
-    {% endif %}
+{%if page.extra.social_media_banner %}
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="twitter:title" content="{{ page.title }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="twitter:description" content="{{ page.description }}" />
+<meta property="twitter:image" content="{{ page.permalink ~ page.extra.social_media_banner }}" />
+<meta property="og:image" content="{{ page.permalink ~ page.extra.social_media_banner }}" />
+{% else %}
+<meta property="twitter:image" content="{{ get_url(path=" images/banner.png") }}" />
+<meta property="og:image" content="{{ get_url(path=" images/banner.png") }}" />
+{% endif %}
 {% endblock social_media %}
 {% block title %}{{ page.title }} | ReSINC - Research in Security, Intelligence & Cyberthreat{% endblock title %}
 
@@ -29,74 +29,9 @@
     </article>
 </main>
 
-<div id="disqus_thread"></div>
-<script>
-    let post_imgs = document.querySelectorAll(".post-content > p > img");
-    for (let post_img of post_imgs) {
-        post_img.addEventListener("click", (event) => {
-            let img_src = post_img.getAttribute("src");
-            let img_alt = post_img.getAttribute("alt");
-            let modal = document.createElement("div");
-            modal.classList.add("modal");
-            modal.innerHTML = `
-                <div class="img-modal-content">
-                    <div class="img-modal-image">
-                        <img src="${img_src}" alt="${img_alt}">
-                    </div>
-                    <button class="close">&times;</button>
-                </div>
-            `;
-            document.body.appendChild(modal);
-            modal.style.display = "block";
-            let close_btn = modal.querySelector(".close");
-
-            modal.onclick = (event) => {
-                if (event.target.className === "img-modal-content") {
-                    modal.style.display = "none";
-                    document.body.removeChild(modal);
-                }
-            };
-
-            close_btn.addEventListener("click", () => {
-                modal.style.display = "none";
-                document.body.removeChild(modal);
-            });
-        });
-    }
-</script>
-<script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT
-     *  THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR
-     *  PLATFORM OR CMS.
-     *
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT:
-     *  https://disqus.com/admin/universalcode/#configuration-variables
-     */
-    /*
-    var disqus_config = function () {
-        // Replace PAGE_URL with your page's canonical URL variable
-        this.page.url = PAGE_URL;
-
-        // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        this.page.identifier = PAGE_IDENTIFIER;
-    };
-    */
-
-    (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
-        var d = document, s = d.createElement('script');
-
-        // IMPORTANT: Replace EXAMPLE with your forum shortname!
-        s.src = 'https://mdgaziur-github-io-blog.disqus.com/embed.js';
-
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>
-    Please enable JavaScript to view the
-    <a href="https://disqus.com/?ref_noscript" rel="nofollow">
-        comments powered by Disqus.
-    </a>
-</noscript>
+<script src="https://giscus.app/client.js" data-repo="resinc-sust/resinc-sust.github.io" data-repo-id="R_kgDOULNsIg"
+    data-category="Announcements" data-category-id="DIC_kwDOULNsIs4DFuOQ" data-mapping="pathname" data-strict="1"
+    data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="preferred_color_scheme"
+    data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+    </script>
 {% endblock content %}

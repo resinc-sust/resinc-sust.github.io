@@ -1,0 +1,30 @@
+{% component person_card(person) %}
+<div class="person-card">
+    <div class="person-card__head">
+        <h3 class="person-card__name">{{ person.name }}</h3>
+        <p class="person-card__role">
+            <em>{{ person.role | default(value="") }}</em>
+            {% if person.tenure %}
+            <span class="person-card__tenure">({{ person.tenure }})</span>
+            {% endif %}
+        </p>
+    </div>
+
+    {% if person.now %}
+    <p class="person-card__now">
+        <strong>Now:</strong> {{ person.now.where }}{% if person.now.where and not person.now.what %}.{% endif %}
+        {% if person.now.what %} {{ person.now.what }}{% endif %}
+    </p>
+    {% endif %}
+
+    {% if person.links and person.links | length > 0 %}
+    <div class="person-card__links">
+        {% for link in person.links %}
+        {% if link.kind and link.url %}
+        {{< social_link kind={link.kind} url={link.url} />}}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endcomponent person_card %}

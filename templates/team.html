@@ -1,19 +1,5 @@
 {% extends "index.html" %}
 
-{% block social_media %}
-    {%if page.extra.social_media_banner %}
-        <meta property="og:title" content="{{ page.title }}" />
-        <meta property="twitter:title" content="{{ page.title }}" />
-        <meta property="og:description" content="{{ page.description }}" />
-        <meta property="og:description" content="{{ page.description }}" />
-        <meta property="twitter:image" content="{{ page.permalink ~ page.extra.social_media_banner }}" />
-        <meta property="og:image" content="{{ page.permalink ~ page.extra.social_media_banner }}" />
-    {% else %}
-        <meta property="twitter:image" content="{{ get_url(path="images/base_banner.png") }}" />
-        <meta property="og:image" content="{{ get_url(path="images/base_banner.png") }}" />
-    {% endif %}
-{% endblock social_media %}
-
 {% block title %}Team | ReSINC - Research in Security, Intelligence & Cyberthreat{% endblock title %}
 
 {% block content %}
@@ -21,29 +7,15 @@
     <article class="post">
         <div class="post-content">
             <h1>Team</h1>
-            <p>ReSINC is made up of researchers working across security, intelligence, and cyberthreat topics. Meet the people currently in the group below.</p>
-            {% set team = load_data(path="data/team.toml", format="toml") %}
+            <p>ReSINC is made up of researchers working across security, intelligence, and cyberthreat topics. Meet the
+                people currently in the group below.</p>
+            {% set team = load_data(path="data/team.yaml", format="yaml") %}
             {% set groups = team | keys | sort %}
-
             {% for group in groups %}
-                <h2 id="{{ group | slugify }}">{{ group }}</h2>
-                {% for slug in team[group] %}
-                    {% set person = load_data(path="data/team/" ~ slug ~ ".toml", format="toml") %}
-                    <div class="person-card">
-                        <div class="person-card__head">
-                            <h3 class="person-card__name">{{ person.name }}</h3>
-                        </div>
-                        {% if person.links and person.links | length > 0 %}
-                            <div class="person-card__links">
-                                {% for link in person.links %}
-                                    {% if link.kind and link.url %}
-                                        {{< social_link kind={link.kind} url={link.url} />}}
-                                    {% endif %}
-                                {% endfor %}
-                            </div>
-                        {% endif %}
-                    </div>
-                {% endfor %}
+            <h2 id="{{ group | slugify }}">{{ group }}</h2>
+            {% for person in team[group] %}
+            {{< person_card person={person} />}}
+            {% endfor %}
             {% endfor %}
         </div>
     </article>

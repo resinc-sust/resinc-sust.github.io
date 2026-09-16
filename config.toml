@@ -11,7 +11,7 @@ generate_feeds = true
 
 feed_filenames = ["rss.xml"]
 
-author = "MD Gaziur Rahman Noor"
+author = "MD Gaziur Rahman Noor, Muhtasham Nawr al-Mahmud"
 
 [markdown]
 external_links_target_blank = true

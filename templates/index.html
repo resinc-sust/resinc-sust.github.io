@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="{{ get_url(path='images/logo.png') }}">
+    <meta name="description"
+        content="{% block description %}{{ config.description | default(value='Research in Security, Intelligence & Cyberthreat') }}{% endblock description %}">
     {% block social_media %}
-    <meta property="og:image" content="{{ get_url(path="images/base_banner.png") }}" />
+    <meta property="og:image" content="{{ get_url(path='images/banner.png') }}" />
     {% endblock social_media %}
     <title>{% block title %}ReSINC - Research in Security, Intelligence & Cyberthreat{% endblock title %}</title>
 
@@ -14,17 +18,24 @@
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 
     <!-- Inter Tight font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <!-- JetBrains Mono font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Global JS -->
+    <script src="{{ get_url(path='js/main.js') }}" defer></script>
 
     <!-- KaTeX Setup -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
@@ -32,61 +43,66 @@
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
         onload="renderMathInElement(document.body);"></script>
 </head>
+
 <body>
     <div class="main-container">
         <nav class="main-nav">
             <div>
-                <a href="/" style="display: block; margin-bottom: 8px;">
-                    <img src="{{ get_url(path='images/logo.png') }}" alt="ReSINC Logo" style="height: 38px;">
+                <a href="{{ config.base_url | default(value='/') }}" class="nav-logo">
+                    <img src="{{ get_url(path='images/logo.png') }}" alt="ReSINC Logo" class="nav-logo-img">
                 </a>
                 <p class="nav-subtitle">
                     Research in Security, Intelligence & Cyberthreat
                 </p>
             </div>
-            <button class="menu-toggle" aria-label="Toggle Menu" onclick="document.querySelector('.main-nav').classList.toggle('drawer-open')">
+            <button class="menu-toggle" aria-label="Toggle Menu">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <line x1="3" y1="12" x2="21" y2="12"></line>
                     <line x1="3" y1="6" x2="21" y2="6"></line>
                     <line x1="3" y1="18" x2="21" y2="18"></line>
                 </svg>
             </button>
-            <div class="drawer-overlay" onclick="document.querySelector('.main-nav').classList.remove('drawer-open')"></div>
+            <div class="drawer-overlay"></div>
             <div class="nav-links">
-                <button class="menu-close" aria-label="Close Menu" onclick="document.querySelector('.main-nav').classList.remove('drawer-open')">
+                <button class="menu-close" aria-label="Close Menu">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <line x1="18" y1="6" x2="6" y2="18"></line>
                         <line x1="6" y1="6" x2="18" y2="18"></line>
                     </svg>
                 </button>
-                <a href="/achievements">Achievements</a>
-                <a href="/team">The Team</a>
-                <a href="/alumni">Alumni</a>
-                <a href="/goal">Our Goal</a>
-                <a href="/about">About Us</a>
+                <a href="{{ get_url(path='achievements') }}">Achievements</a>
+                <a href="{{ get_url(path='team') }}">The Team</a>
+                <a href="{{ get_url(path='alumni') }}">Alumni</a>
+                <a href="{{ get_url(path='goal') }}">Our Goal</a>
+                <a href="{{ get_url(path='about') }}">About Us</a>
             </div>
         </nav>
         {% block content %}
-            <header class="home-hero">
-                <h2>Securing the Future.</h2>
-                <p>
-                    We are an independent research group dedicated to exploring the depths of cybersecurity, threat intelligence, and reverse engineering.
-                </p>
-                <div class="hero-buttons">
-                    <a href="/about" class="btn btn-primary">Learn More</a>
-                    <a href="/team" class="btn btn-secondary">Meet the Team</a>
-                </div>
-            </header>
-            <div>
-                <h2 style="color: #ffffff60; font-size: 24px; margin-bottom: 16px; border-bottom: 1px solid #ffffff20; padding-bottom: 12px;">Latest Blogs</h2>
-                <main class="post-list">
-                    <div class="posts-info-container">
-                        {% for post in section.pages %}
-                            {{< post_info post={post} />}}
-                        {% endfor %}
-                    </div>
-                </main>
+        <header class="home-hero">
+            <h2>Securing the Future.</h2>
+            <p>
+                We are an independent research group dedicated to exploring the depths of cybersecurity, threat
+                intelligence, and reverse engineering.
+            </p>
+            <div class="hero-buttons">
+                <a href="{{ get_url(path='about') }}" class="btn btn-primary">Learn More</a>
+                <a href="{{ get_url(path='team') }}" class="btn btn-secondary">Meet the Team</a>
             </div>
+        </header>
+        <div>
+            <h2 class="section-heading">Latest Blogs</h2>
+            <main class="post-list">
+                <div class="posts-info-container">
+                    {% for post in section.pages %}
+                    {{
+                    < post_info post={post} />}}
+                    {% endfor %}
+                </div>
+            </main>
+        </div>
         {% endblock content %}
+        {{< footer />}}
     </div>
 </body>
+
 </html>

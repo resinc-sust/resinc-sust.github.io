@@ -8,5 +8,5 @@ template = "alumni.html"
 
 # Alumni
 
-The full alumni listing is rendered by `templates/alumni.html` from data files in `data/people/`.
+The full alumni listing is rendered by `templates/alumni.html` from data files in `data/alumni/`.
 
