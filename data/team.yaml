@@ -1,3 +1,58 @@
+"2017":
+  - name: "Zeshan Ahmed Nobin"
+    role: "Founding President & Low-level Security Lead"
+    tenure: "2022 – 2023"
+    now:
+      where: "Alan Paller Scholar, MS in Information Security Engineering (ISE) at SANS Technology Institute"
+      what: "Lead Binary Exploitation and Exploit Development."
+    links:
+      - kind: linkedin
+        url: https://www.linkedin.com/in/zeshanahmednobin/
+      - kind: github
+        url: https://github.com/NobinPegasus
+      - kind: twitter
+        url: https://x.com/zeshan_nobin
+      - kind: website
+        label: "Personal site"
+        url: https://nobinpegasus.github.io
+      - kind: email
+        url: zeshanahmednobin@gmail.com
+
+"2018":
+  - name: "Naimul Islam"
+    role: "Founding Vice President, Reverse Engineer and Digital Forensics Researcher"
+    tenure: "2022 – 2024"
+    now:
+      where: "Sr. Security Engineer at Axiler"
+      what: "Lead the CTF team, and contributed to Reverse Engineering research."
+    links:
+      - kind: linkedin
+        url: https://www.linkedin.com/in/kcnaiamh/
+      - kind: github
+        url: https://github.com/kcnaiamh
+      - kind: twitter
+        url: https://x.com/kcnaiamh
+      - kind: website
+        label: "Personal site"
+        url: https://kcnaiamh.com/
+
+  - name: "Md. Ikram Hossain Mojumder"
+    role: "Founding Member, Web Application Security Researcher"
+    tenure: "2022 – 2024"
+    now:
+      where: "Jr. Cyber Security Engineer at TechnoNext"
+      what: "Contributed to penetration testing and security assessments of third-party software procured by Shahjalal University of Science and Technology (SUST), identifying security vulnerabilities and validating security readiness prior to production deployment."
+    links:
+      - kind: linkedin
+        url: https://www.linkedin.com/in/machine-farmer/
+      - kind: github
+        url: https://github.com/Machine-farmer
+      - kind: twitter
+        url: https://x.com/IkramRafiMj
+      - kind: website
+        label: "Personal site"
+        url: https://ikramhossain.tech
+
 "2024":
   - name: "Muhtasham Nawr al-Mahmud (Muhtaseem Al Mahmud Nawroj)"
     tenure: "2025 - Present"
@@ -16,6 +71,7 @@
         url: https://muhtashamnawr.github.io/ # TODO
       - kind: email
         url: muhtaseem2005@gmail.com
+
   - name: "Md. Gaziur Rahman Noor"
     tenure: "2025 - Present"
     now:
@@ -33,15 +89,9 @@
         url: https://mdgaziur001.me/
       - kind: email
         url: mdgaziurrahmannoor@gmail.com
+
   - name: "Mafinur Karim"
     tenure: "2025 - Present"
-    now:
-      where: ""
-      what: ""
-    links:
-      - kind: ""
-  - name: "Maruf Hasan Tanim"
-    tenure: "2026 - Present"
     now:
       where: ""
       what: ""
@@ -77,4 +127,3 @@
       what: ""
     links:
       - kind: ""
-  

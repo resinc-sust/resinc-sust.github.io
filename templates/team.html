@@ -10,13 +10,7 @@
             <p>ReSINC is made up of researchers working across security, intelligence, and cyberthreat topics. Meet the
                 people currently in the group below.</p>
             {% set team = load_data(path="data/team.yaml", format="yaml") %}
-            {% set groups = team | keys | sort %}
-            {% for group in groups %}
-            <h2 id="{{ group | slugify }}">{{ group }}</h2>
-            {% for person in team[group] %}
-            {{< person_card person={person} />}}
-            {% endfor %}
-            {% endfor %}
+            {{< people_list data={team} />}}
         </div>
     </article>
 </main>

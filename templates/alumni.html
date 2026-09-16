@@ -10,13 +10,7 @@
             <p>ReSINC has been shaped by many talented researchers who have moved on to new challenges. We're proud of
                 their contributions and grateful for the time they spent with the group.</p>
             {% set alumni = load_data(path="data/alumni.yaml", format="yaml") %}
-            {% set years = alumni | keys | sort | reverse %}
-            {% for year in years %}
-            <h2 id="{{ year }}">{{ year }}</h2>
-            {% for person in alumni[year] %}
-            {{< person_card person={person} />}}
-            {% endfor %}
-            {% endfor %}
+            {{< people_list data={alumni} />}}
         </div>
     </article>
 </main>

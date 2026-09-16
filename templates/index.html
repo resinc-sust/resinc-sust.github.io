@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="{{ get_url(path='images/logo.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path='images/favicon.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path='images/favicon.png') }}">
+    <link rel="apple-touch-icon" href="{{ get_url(path='images/favicon.png') }}">
+    <link rel="shortcut icon" href="{{ get_url(path='images/favicon.png') }}">
     <meta name="description"
         content="{% block description %}{{ config.description | default(value='Research in Security, Intelligence & Cyberthreat') }}{% endblock description %}">
     {% block social_media %}
@@ -101,7 +104,8 @@
             </main>
         </div>
         {% endblock content %}
-        {{< footer />}}
+        {{
+        < footer />}}
     </div>
 </body>
 

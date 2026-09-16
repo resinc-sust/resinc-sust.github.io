@@ -38,6 +38,8 @@ body {
 
   .nav-logo-img {
     height: 38px;
+    width: auto !important;
+    object-fit: contain;
   }
 
   h1 {
