@@ -1,0 +1,9 @@
+{% component people_list(data) %}
+{% set years = data | keys | sort %}
+{% for year in years %}
+<h2 id="{{ year }}">{{ year }}</h2>
+{% for person in data[year] %}
+{{< person_card person={person} />}}
+{% endfor %}
+{% endfor %}
+{% endcomponent people_list %}
