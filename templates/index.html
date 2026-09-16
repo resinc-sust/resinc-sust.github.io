@@ -97,15 +97,13 @@
             <main class="post-list">
                 <div class="posts-info-container">
                     {% for post in section.pages %}
-                    {{
-                    < post_info post={post} />}}
+                    {{< post_info post={post} />}}
                     {% endfor %}
                 </div>
             </main>
         </div>
         {% endblock content %}
-        {{
-        < footer />}}
+        {{< footer />}}
     </div>
 </body>
 

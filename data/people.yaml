@@ -1,0 +1,177 @@
+alumni:
+  "2017":
+    - &nobin
+      name: "Zeshan Ahmed Nobin"
+      role: "Founding President & Low-level Security Lead"
+      tenure: "2022 – 2023"
+      now:
+        where: "Alan Paller Scholar, MS in Information Security Engineering (ISE) at SANS Technology Institute"
+        what: "Lead Binary Exploitation and Exploit Development."
+      links:
+        - kind: linkedin
+          url: https://www.linkedin.com/in/zeshanahmednobin/
+        - kind: github
+          url: https://github.com/NobinPegasus
+        - kind: twitter
+          url: https://x.com/zeshan_nobin
+        - kind: website
+          label: "Personal site"
+          url: https://nobinpegasus.github.io
+        - kind: email
+          url: zeshanahmednobin@gmail.com
+  
+  "2018":
+    - &naimul
+      name: "Naimul Islam"
+      role: "Founding Vice President, Reverse Engineer and Digital Forensics Researcher"
+      tenure: "2022 – 2024"
+      now:
+        where: "Sr. Security Engineer at Axiler"
+        what: "Lead the CTF team, and contributed to Reverse Engineering research."
+      links:
+        - kind: linkedin
+          url: https://www.linkedin.com/in/kcnaiamh/
+        - kind: github
+          url: https://github.com/kcnaiamh
+        - kind: twitter
+          url: https://x.com/kcnaiamh
+        - kind: website
+          label: "Personal site"
+          url: https://kcnaiamh.com/
+
+    - &ikram
+      name: "Md. Ikram Hossain Mojumder"
+      role: "Founding Member, Web Application Security Researcher"
+      tenure: "2022 – 2024"
+      now:
+        where: "Jr. Cyber Security Engineer at TechnoNext"
+        what: "Contributed to penetration testing and security assessments of third-party software procured by Shahjalal University of Science and Technology (SUST), identifying security vulnerabilities and validating security readiness prior to production deployment."
+      links:
+        - kind: linkedin
+          url: https://www.linkedin.com/in/machine-farmer/
+        - kind: github
+          url: https://github.com/Machine-farmer
+        - kind: twitter
+          url: https://x.com/IkramRafiMj
+        - kind: website
+          label: "Personal site"
+          url: https://ikramhossain.tech
+
+  "2019":
+    - name: "Irfan Nafiz Shahan"
+      role: "Founding Member, Cryptography and OSINT Lead"
+      tenure: "2022 – 2023"
+      now:
+        where: "Lecturer in the Department of Electrical and Electronic Engineering at Shahjalal University of Science and Technology (SUST)"
+        what: "Contributed to Cryptography research."
+      links:
+        - kind: linkedin
+          url: https://www.linkedin.com/in/irfannafizshahan/
+        - kind: github
+          url: https://github.com/irfannafiz/
+        - kind: website
+          label: "Personal site"
+          url: https://irfannafiz.github.io
+
+    - name: "Al-Mubeen Khan Nabil"
+      role: "Founding Member, Miscellaneous and Web Lead"
+      tenure: "2022 – 2023"
+      now:
+        where: "R&D Engineer at Krait Labs"
+        what: "Contributed to Web research."
+      links:
+        - kind: linkedin
+          url: https://www.linkedin.com/in/al-mubin-nabil-03270215b/
+        - kind: github
+          url: https://github.com/almubeen
+        - kind: website
+          label: "Personal site"
+          url: https://almubinnabil.vercel.app/
+        - kind: email
+          url: almubinnabil@gmail.com
+
+team:
+  "2017":
+    - *nobin
+
+  "2018":
+    - *naimul
+    - *ikram
+
+  "2024":
+    - name: "Muhtasham Nawr al-Mahmud (Muhtaseem Al Mahmud Nawroj)"
+      tenure: "2025 - Present"
+      now:
+        where: "CISO, CQO and Co-founder @ Axcerus (2025 - Present)"
+        what: "" # TODO
+      links:
+        - kind: linkedin
+          url: https://www.linkedin.com/in/muhtaseem-al-mahmud/
+        - kind: github
+          url: https://github.com/mnalmahmud
+        - kind: twitter
+          url: https://x.com/mnalmahmud
+        - kind: website
+          label: "Personal site"
+          url: https://muhtashamnawr.github.io/ # TODO
+        - kind: email
+          url: muhtaseem2005@gmail.com
+
+    - name: "Md. Gaziur Rahman Noor"
+      tenure: "2025 - Present"
+      now:
+        where: "CEO and Co-founder @ Axcerus (2025 - Present), Junior Engineer @ Delineate (2026 - Present)"
+        what: "" # TODO
+      links:
+        - kind: linkedin
+          url: https://www.linkedin.com/in/mdgaziur/
+        - kind: github
+          url: https://github.com/mdgaziur
+        - kind: twitter
+          url: https://x.com/mdgaziur_
+        - kind: website
+          label: "Personal site"
+          url: https://mdgaziur001.me/
+        - kind: email
+          url: mdgaziurrahmannoor@gmail.com
+
+    - name: "Mafinur Karim"
+      tenure: "2025 - Present"
+      now:
+        where: ""
+        what: ""
+      links:
+        - kind: ""
+
+  "2025":
+    - name: "TBD"
+      tenure: "2026 - Present"
+      now:
+        where: ""
+        what: ""
+      links:
+        - kind: ""
+
+    - name: "TBD"
+      tenure: "2026 - Present"
+      now:
+        where: ""
+        what: ""
+      links:
+        - kind: ""
+
+    - name: "TBD"
+      tenure: "2026 - Present"
+      now:
+        where: ""
+        what: ""
+      links:
+        - kind: ""
+
+    - name: "TBD"
+      tenure: "2026 - Present"
+      now:
+        where: ""
+        what: ""
+      links:
+        - kind: ""

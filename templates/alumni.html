@@ -9,8 +9,8 @@
             <h1>Alumni</h1>
             <p>ReSINC has been shaped by many talented researchers who have moved on to new challenges. We're proud of
                 their contributions and grateful for the time they spent with the group.</p>
-            {% set alumni = load_data(path="data/alumni.yaml", format="yaml") %}
-            {{< people_list data={alumni} />}}
+            {% set people = load_data(path="data/people.yaml", format="yaml") %}
+            {{< people_list data={people.alumni} />}}
         </div>
     </article>
 </main>
