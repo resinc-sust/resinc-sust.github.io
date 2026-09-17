@@ -1,10 +1,10 @@
-{% component apprentice_grid(people) %}
-<div class="apprentice-grid">
-    {% for person in people | sort(attribute="name") %}
-    <div class="apprentice-card">
-        <h3 class="apprentice-card__name">{{ person.name }}</h3>
+{% component member_grid(people) %}
+<div class="member-grid">
+    {% for person in people %}
+    <div class="member-card">
+        <h3 class="member-card__name">{{ person.name }}</h3>
         {% if person.links and person.links | length > 0 %}
-        <div class="apprentice-card__links">
+        <div class="member-card__links">
             {% for link in person.links %}
             {% if link.kind == "twitter" %}
             {{< social_link kind={link.kind} url={link.url} label="X" />}}
@@ -17,4 +17,4 @@
     </div>
     {% endfor %}
 </div>
-{% endcomponent apprentice_grid %}
+{% endcomponent member_grid %}

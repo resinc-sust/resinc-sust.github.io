@@ -1,9 +1,13 @@
 {% component people_list(data, prefix) %}
 {% set years = data | keys | sort %}
 {% for year in years %}
+{% if prefix == "team" %}
+{{< member_grid people={data[year]} />}}
+{% else %}
 <h2 id="{{ prefix }}-{{ year }}">{{ year }}</h2>
 {% for person in data[year] %}
 {{< person_card person={person} />}}
 {% endfor %}
+{% endif %}
 {% endfor %}
 {% endcomponent people_list %}
