@@ -8,6 +8,8 @@ template = "static.html"
 
 # Our Goal
 
+This content now lives under [About Us](/about/).
+
 At ReSINC, our primary goal is to advance the state of cybersecurity through rigorous research, open collaboration, and intelligence sharing. 
 
 We aim to:

@@ -6,11 +6,7 @@
 <main class="post-container">
     <article class="post">
         <div class="post-content">
-            <h1>Team</h1>
-            <p>ReSINC is made up of researchers working across security, intelligence, and cyberthreat topics. Meet the
-                people currently in the group below.</p>
-            {% set people = load_data(path="data/people.yaml", format="yaml") %}
-            {{< people_list data={people.team} />}}
+            {{< people_section kind="team" />}}
         </div>
     </article>
 </main>

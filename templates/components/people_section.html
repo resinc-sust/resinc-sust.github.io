@@ -1,0 +1,23 @@
+{% component people_section(kind) %}
+{% set people = load_data(path="data/people.yaml", format="yaml") %}
+{% if kind == "team" %}
+<h1>Team</h1>
+<p>ReSINC is made up of researchers working across security, intelligence, and cyberthreat topics.</p>
+<h2 class="sub-heading">Mentors</h2>
+<div class="mentor-list">
+    {% for mentor in people.mentors %}
+    <a class="mentor-link" href="{{ get_url(path='mentors/' ~ mentor.slug) }}">
+        <span>{{ mentor.name }}</span>
+        <span class="mentor-link__arrow" aria-hidden="true">&rarr;</span>
+    </a>
+    {% endfor %}
+</div>
+<h2 class="sub-heading">Members</h2>
+{{< people_list data={people.team} prefix={kind} />}}
+{% else %}
+<h1>Alumni</h1>
+<p>ReSINC has been shaped by many talented researchers who have moved on to new challenges. We're proud of
+    their contributions and grateful for the time they spent with the group.</p>
+{{< people_list data={people.alumni} prefix={kind} />}}
+{% endif %}
+{% endcomponent people_section %}

@@ -1,0 +1,33 @@
+{% extends "index.html" %}
+
+{% block title %}{{ page.title }} | ReSINC - Research in Security, Intelligence & Cyberthreat{% endblock title %}
+
+{% block content %}
+<main class="post-container">
+    <article class="post mentor-page">
+        <a class="mentor-back" href="{{ get_url(path='/') }}#team">&larr; Back to Team</a>
+        <header class="mentor-head">
+            <h1>{{ page.title }}</h1>
+            <p class="mentor-role">
+                <em>{{ page.extra.role }}</em>
+                {% if page.extra.tenure %}
+                <span class="person-card__tenure">({{ page.extra.tenure }})</span>
+                {% endif %}
+                <span class="mentor-badge">Mentor</span>
+            </p>
+        </header>
+        <div class="post-content">
+            {{ page.content | safe }}
+        </div>
+        {% if page.extra.links and page.extra.links | length > 0 %}
+        <div class="person-card__links">
+            {% for link in page.extra.links %}
+            {% if link.kind and link.url %}
+            {{< social_link kind={link.kind} url={link.url} />}}
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    </article>
+</main>
+{% endblock content %}
