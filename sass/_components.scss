@@ -403,6 +403,11 @@ pre::-webkit-scrollbar-thumb:hover {
     max-width: 650px;
     margin: 0 auto 32px;
     line-height: 1.5;
+
+    strong {
+      color: white;
+      font-weight: 600;
+    }
   }
 
   .hero-buttons {

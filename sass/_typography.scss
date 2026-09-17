@@ -32,6 +32,15 @@ li {
   padding-left: 1.25em;
 }
 
+.post-content ol {
+  padding-left: 0;
+}
+
+.post-content ol li {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
 li>p {
   margin: 0 0 0.5em 0;
 }

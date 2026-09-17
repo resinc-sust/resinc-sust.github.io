@@ -10,11 +10,12 @@ template = "static.html"
 
 This content now lives under [About Us](/about/).
 
-At ReSINC, our primary goal is to advance the state of cybersecurity through rigorous research, open collaboration, and intelligence sharing. 
+At ReSINC, our primary goal is to conduct cutting-edge cybersecurity research.
 
 We aim to:
-1. **Identify** emerging cyber threats before they become mainstream.
-2. **Educate** the community on best practices for secure software development.
-3. **Develop** open-source tools to assist in threat hunting and intelligence gathering.
+1. **Discover** zero-day vulnerabilities, contribute CVE findings, and participate in bug bounty programs and open security research through responsible disclosure.
+2. **Deliver** quality penetration testing services.
+3. **Publish** cutting-edge security research, write-ups, and open-source tools for the community.
+4. **Educate** freshmen and sophomore newcomers, building a strong security foundation from day one.
 
 Together, we can build a more secure digital ecosystem.
