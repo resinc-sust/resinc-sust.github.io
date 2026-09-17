@@ -137,3 +137,61 @@ team:
 
     - name: "Mafinur Karim"
       tenure: "2025 - Present"
+
+apprentices:
+  - name: "Tanvir Ahmed"
+    links:
+      - kind: linkedin
+        url: https://www.linkedin.com/in/tanvir-ahmed-56a214419/
+      - kind: email
+        url: tanvirahmedatmail@gmail.com
+
+  - name: "Md. Nafis Ishtiyak Mahee"
+    links:
+      - kind: linkedin
+        url: https://www.linkedin.com/in/nafis-ishtiyak-191292403/
+      - kind: email
+        url: nafisishtiyak@gmail.com
+      - kind: twitter
+        url: https://x.com/nafisishtiyak
+
+  - name: "ABM Saeid"
+    links:
+      - kind: linkedin
+        url: https://www.linkedin.com/in/abm-saeid-264235283/
+      - kind: email
+        url: abmshaeid@gmail.com
+
+  - name: "Asadul Haque Apurbo"
+    links:
+      - kind: email
+        url: apurboasadul@gmail.com
+
+  - name: "Istiak Ahmed"
+    links:
+      - kind: linkedin
+        url: https://www.linkedin.com/in/istiak-ahmed-a87458424/
+      - kind: email
+        url: cossine49@gmail.com
+
+  - name: "Arisha Mahdiya"
+    links:
+      - kind: email
+        url: arishamahdiya007@gmail.com
+
+  - name: "Raisha Tabassum Rodshi"
+    links:
+      - kind: email
+        url: raisharodshi06@gmail.com
+
+  - name: "Aparajita Saha"
+    links:
+      - kind: email
+        url: ahana.aparajita@gmail.com
+
+  - name: "Mst. Nurunnahar Mim"
+    links:
+      - kind: email
+        url: all.olikoll0@gmail.com
+      - kind: twitter
+        url: https://x.com/Olik996179

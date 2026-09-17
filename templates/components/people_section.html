@@ -14,6 +14,8 @@
 </div>
 <h2 class="sub-heading">Members</h2>
 {{< people_list data={people.team} prefix={kind} />}}
+<h2 class="sub-heading">Apprentices</h2>
+{{< apprentice_grid people={people.apprentices} />}}
 {% else %}
 <h1>Alumni</h1>
 <p>ReSINC has been shaped by many talented researchers who have moved on to new challenges. We're proud of
