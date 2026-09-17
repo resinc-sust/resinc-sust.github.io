@@ -16,7 +16,7 @@
     {% endblock social_media %}
     <title>{% block title %}ReSINC - Research in Security, Intelligence & Cyberthreat{% endblock title %}</title>
 
-    <link rel="stylesheet" href="{{ get_url(path='main.css', trailing_slash=false) }}" />
+    <link rel="stylesheet" href="{{ get_url(path='main.css', trailing_slash=false, cachebust=true) }}" />
 
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,7 +38,7 @@
         rel="stylesheet">
 
     <!-- Global JS -->
-    <script src="{{ get_url(path='js/main.js') }}" defer></script>
+    <script src="{{ get_url(path='js/main.js', cachebust=true) }}" defer></script>
 
     <!-- KaTeX Setup -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
