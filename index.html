@@ -1,0 +1,2120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://resinc-sust.github.io/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://resinc-sust.github.io/images/favicon.png">
+    <link rel="apple-touch-icon" href="https://resinc-sust.github.io/images/favicon.png">
+    <link rel="shortcut icon" href="https://resinc-sust.github.io/images/favicon.png">
+    <meta name="description"
+        content="">
+    
+    <meta property="og:image" content="https://resinc-sust.github.io/images/banner.png" />
+    
+    <title>ReSINC - Research in Security, Intelligence & Cyberthreat</title>
+
+    <link rel="stylesheet" href="https://resinc-sust.github.io/main.css?h=e59cc888cf5ae4abfee4" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Inter Tight font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- JetBrains Mono font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+
+    <!-- Global JS -->
+    <script src="https://resinc-sust.github.io/js/main.js?h=da969d8f995b7c8a9fc3" defer></script>
+
+    <!-- KaTeX Setup -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body);"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <nav class="main-nav">
+            <div>
+                <a href="https://resinc-sust.github.io#home" class="nav-logo" aria-label="ReSINC home">
+                    <img src="https://resinc-sust.github.io/images/logo.png" alt="ReSINC Logo" class="nav-logo-img">
+                </a>
+                <p class="nav-subtitle">
+                    Research in Security, Intelligence & Cyberthreat
+                </p>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false" aria-controls="navigation-links">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <div class="drawer-overlay"></div>
+            <div class="nav-links" id="navigation-links">
+                <button class="menu-close" aria-label="Close Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+                <a href="https://resinc-sust.github.io#home" data-section="home">Home</a>
+                <a href="https://resinc-sust.github.io#about" data-section="about">About Us</a>
+                <a href="https://resinc-sust.github.io#team" data-section="team">The Team</a>
+                <a href="https://resinc-sust.github.io#achievements" data-section="achievements">Achievements</a>
+                <a href="https://resinc-sust.github.io#alumni" data-section="alumni">Alumni</a>
+                <a href="https://resinc-sust.github.io#posts" data-section="posts">Blogs</a>
+            </div>
+        </nav>
+        
+        <main class="scroll-pages">
+        <section id="home" class="scroll-section" data-scroll-section aria-label="Home">
+        <header class="home-hero">
+            <h2>Securing the Future.</h2>
+            <p>
+                The official <strong>Cyber Security Group</strong> of Shahjalal University of Science and Technology
+                (SUST), Bangladesh — exploring the depths of cybersecurity.
+            </p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Learn More</a>
+                <a href="#team" class="btn btn-secondary">Meet the Team</a>
+            </div>
+        </header>
+        </section>
+
+
+<section id="about" class="scroll-section" data-scroll-section aria-label="About Us">
+    <article class="post">
+        <div class="post-content">
+            
+            <h1 id="about-us">About Us<a class="zola-anchor" href="#about-us" aria-label="Anchor link for: about-us">🔗</a></h1>
+<p>ReSINC stands for <strong>Research in Security, Intelligence &amp; Cyberthreat</strong>.</p>
+<p>We are the official Cyber Security Group of Shahjalal University of Science and Technology (SUST), Bangladesh, dedicated to exploring the depths of cybersecurity. Founded in 2022, our group has steadily grown into a hub for cutting-edge security research, focusing on threat intelligence, binary exploitation, and reverse engineering.</p>
+<p>Whether you're a seasoned professional or a student looking to get into the field, we believe in sharing knowledge and pushing the boundaries of what's possible in infosec.</p>
+<h2 id="our-goal">Our Goal<a class="zola-anchor" href="#our-goal" aria-label="Anchor link for: our-goal">🔗</a></h2>
+<p>At ReSINC, our primary goal is to conduct cutting-edge cybersecurity research.</p>
+<p>We aim to:</p>
+<ol>
+<li><strong>Discover</strong> zero-day vulnerabilities, contribute CVE findings, and participate in bug bounty programs and open security research through responsible disclosure.</li>
+<li><strong>Deliver</strong> quality penetration testing services.</li>
+<li><strong>Publish</strong> cutting-edge security research, write-ups, and open-source tools for the community.</li>
+<li><strong>Educate</strong> freshmen and sophomore newcomers, building a strong security foundation from day one.</li>
+</ol>
+<p>Together, we can build a more secure digital ecosystem.</p>
+
+            
+        </div>
+    </article>
+</section>
+
+
+<section id="team" class="scroll-section" data-scroll-section aria-label="Team">
+    <article class="post">
+        <div class="post-content">
+            
+            
+
+
+<h1>Team</h1>
+<p>ReSINC is made up of researchers working across security, intelligence, and cyberthreat topics.</p>
+
+<h2 class="sub-heading">Mentors</h2>
+<div class="mentor-list">
+    
+    <a class="mentor-link" href="https://resinc-sust.github.io/mentors/zeshan-ahmed-nobin">
+        <span>Zeshan Ahmed Nobin</span>
+        <span class="mentor-link__arrow" aria-hidden="true">&rarr;</span>
+    </a>
+    
+    <a class="mentor-link" href="https://resinc-sust.github.io/mentors/naimul-islam">
+        <span>Naimul Islam</span>
+        <span class="mentor-link__arrow" aria-hidden="true">&rarr;</span>
+    </a>
+    
+    <a class="mentor-link" href="https://resinc-sust.github.io/mentors/md-ikram-hossain-mojumder">
+        <span>Md. Ikram Hossain Mojumder</span>
+        <span class="mentor-link__arrow" aria-hidden="true">&rarr;</span>
+    </a>
+    
+</div>
+<h2 class="sub-heading">Members</h2>
+
+
+
+
+
+<div class="member-grid">
+    
+    <div class="member-card">
+        <h3 class="member-card__name">Muhtasham Nawr al-Mahmud</h3>
+        
+        <div class="member-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/muhtaseem-al-mahmud/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--github" href="https://github.com/mnalmahmud" target="_blank" rel="noopener noreferrer"
+    aria-label="GitHub">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.55C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+    </svg>
+    <span>GitHub</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--twitter" href="https://x.com/mnalmahmud" target="_blank" rel="noopener noreferrer"
+    aria-label="X">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+    <span>X</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--website" href="https://muhtashamnawr.github.io/" target="_blank" rel="noopener noreferrer"
+    aria-label="Website">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+    </svg>
+    <span>Website</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:muhtaseem2005@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="member-card">
+        <h3 class="member-card__name">Md. Gaziur Rahman Noor</h3>
+        
+        <div class="member-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/mdgaziur/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--github" href="https://github.com/mdgaziur" target="_blank" rel="noopener noreferrer"
+    aria-label="GitHub">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.55C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+    </svg>
+    <span>GitHub</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--twitter" href="https://x.com/mdgaziur_" target="_blank" rel="noopener noreferrer"
+    aria-label="X">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+    <span>X</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--website" href="https://mdgaziur001.me/" target="_blank" rel="noopener noreferrer"
+    aria-label="Website">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+    </svg>
+    <span>Website</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:mdgaziurrahmannoor@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="member-card">
+        <h3 class="member-card__name">Mafinur Karim</h3>
+        
+        <div class="member-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/mafinur-karim-b693b0275" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--github" href="https://github.com/mafinur47" target="_blank" rel="noopener noreferrer"
+    aria-label="GitHub">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.55C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+    </svg>
+    <span>GitHub</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:mafinurk@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+</div>
+
+
+
+
+<h2 class="sub-heading">Apprentices</h2>
+
+<div class="apprentice-grid">
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">ABM Saeid</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/abm-saeid-264235283/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:abmshaeid@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Aparajita Saha</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:ahana.aparajita@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/aparajita-saha-09bba43b7" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Arisha Mahdiya</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:arishamahdiya007@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/arisha-mahdiya-460967344" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Asadul Haque Apurbo</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:apurboasadul@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Istiak Ahmed</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/istiak-ahmed-a87458424/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:cossine49@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Jannatul Nahin Nisa</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:jnahin540@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/jannatul-nahin-182303419" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Md. Nafis Ishtiyak Mahee</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/nafis-ishtiyak-191292403/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:nafisishtiyak@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--twitter" href="https://x.com/nafisishtiyak" target="_blank" rel="noopener noreferrer"
+    aria-label="X">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+    <span>X</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Mst. Nurunnahar Mim</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:all.olikoll0@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--twitter" href="https://x.com/Olik996179" target="_blank" rel="noopener noreferrer"
+    aria-label="X">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+    <span>X</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/olik-oll/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Raifa Zaman</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:raifazaman5@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/raifa-zaman-b3a775437" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--twitter" href="https://x.com/RaifaZaman" target="_blank" rel="noopener noreferrer"
+    aria-label="X">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+    <span>X</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Raisha Tabassum Rodshi</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:raisharodshi06@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/raisha-tabassum-rodshi-9603ba411/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+    <div class="apprentice-card">
+        <h3 class="apprentice-card__name">Tanvir Ahmed</h3>
+        
+        <div class="apprentice-card__links">
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/tanvir-ahmed-56a214419/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+            
+            
+            
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:tanvirahmedatmail@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+            
+            
+        </div>
+        
+    </div>
+    
+</div>
+
+
+
+            
+        </div>
+    </article>
+</section>
+
+
+<section id="achievements" class="scroll-section" data-scroll-section aria-label="Achievements">
+    <article class="post">
+        <div class="post-content">
+            
+            <h1 id="our-achievements">Our Achievements<a class="zola-anchor" href="#our-achievements" aria-label="Anchor link for: our-achievements">🔗</a></h1>
+<p>We are proud of the work we have accomplished so far in the field of security and intelligence. Here are some of our major milestones, grouped by year and team:</p>
+<section class="achievements">
+  <section class="achievement-year">
+    <div class="achievement-year__header">
+      <h2 class="achievement-year__label" id="year-2026">2026</h2>
+      <span class="achievement-year__rule"></span>
+    </div>
+    <div class="achievement-year__teams">
+      <section class="achievement-team">
+        <div class="achievement-team__header">
+          <h3 class="achievement-team__name">Team Better_Call_SUST</h3>
+        </div>
+        <ul class="achievement-list">
+          <li><span class="achievement-item__rank">237th</span><span class="achievement-item__event">HTB (Hack The Box) Cyber Apocalypse 2026</span></li>
+          <li><span class="achievement-item__rank">154th</span><span class="achievement-item__event">0xfun CTF 2026</span></li>
+          <li><span class="achievement-item__rank">177th</span><span class="achievement-item__event">LA CTF 2026</span></li>
+        </ul>
+      </section>
+    </div>
+  </section>
+  <section class="achievement-year">
+    <div class="achievement-year__header">
+      <h2 class="achievement-year__label" id="year-2025">2025</h2>
+      <span class="achievement-year__rule"></span>
+    </div>
+    <div class="achievement-year__teams">
+      <section class="achievement-team">
+        <div class="achievement-team__header">
+          <h3 class="achievement-team__name">Team Better_Call_SUST</h3>
+        </div>
+        <ul class="achievement-list">
+          <li><span class="achievement-item__rank">11th</span><span class="achievement-item__event">Al Khwarizmi CTF National Contest 2025</span></li>
+        </ul>
+      </section>
+    </div>
+  </section>
+  <section class="achievement-year">
+    <div class="achievement-year__header">
+      <h2 class="achievement-year__label" id="year-2023">2023</h2>
+      <span class="achievement-year__rule"></span>
+    </div>
+    <div class="achievement-year__teams">
+      <section class="achievement-team">
+        <div class="achievement-team__header">
+          <h3 class="achievement-team__name">Team NMOSS</h3>
+        </div>
+        <ul class="achievement-list">
+          <li><span class="achievement-item__rank">179th<span class="achievement-item__total">/6482</span></span><span class="achievement-item__event">HTB (Hack The Box) Cyber Apocalypse CTF 2023 — The Cursed Mission</span><span class="achievement-item__note">2nd in Bangladesh</span></li>
+        </ul>
+      </section>
+      <section class="achievement-team">
+        <div class="achievement-team__header">
+          <h3 class="achievement-team__name">Team Null Pointer</h3>
+        </div>
+        <ul class="achievement-list">
+          <li><span class="achievement-item__rank">10th<span class="achievement-item__total">/26</span></span><span class="achievement-item__event">BUET Inter University CTF Finals 2023</span><span class="achievement-item__note">national</span></li>
+        </ul>
+      </section>
+    </div>
+  </section>
+  <section class="achievement-year">
+    <div class="achievement-year__header">
+      <h2 class="achievement-year__label" id="year-2022">2022</h2>
+      <span class="achievement-year__rule"></span>
+    </div>
+    <div class="achievement-year__teams">
+      <section class="achievement-team">
+        <div class="achievement-team__header">
+          <h3 class="achievement-team__name">Team NMOSS</h3>
+        </div>
+        <ul class="achievement-list">
+          <li><span class="achievement-item__rank">278th<span class="achievement-item__total">/942</span></span><span class="achievement-item__event">HTB (Hack The Box) UniCTF 2022</span><span class="achievement-item__note">competed as Shahjalal University of Science and Technology (SUST), Bangladesh</span></li>
+          <li><span class="achievement-item__rank">14th<span class="achievement-item__total">/30</span></span><span class="achievement-item__event">Flag Hunt 2022 Finals</span><span class="achievement-item__note">national</span></li>
+          <li><span class="achievement-item__rank">156th<span class="achievement-item__total">/1092</span></span><span class="achievement-item__event">SHELL CTF 2022</span></li>
+          <li><span class="achievement-item__rank">287th<span class="achievement-item__total">/978</span></span><span class="achievement-item__event">corCTF 2022</span></li>
+          <li><span class="achievement-item__rank">221st<span class="achievement-item__total">/731</span></span><span class="achievement-item__event">ASCWG (Arab Cyber Security Wargames) 2022</span></li>
+          <li><span class="achievement-item__rank">235th</span><span class="achievement-item__event">Google CTF 2022</span></li>
+          <li><span class="achievement-item__rank">790th<span class="achievement-item__total">/7024</span></span><span class="achievement-item__event">HTB (Hack The Box) Cyber Apocalypse CTF 2022</span></li>
+        </ul>
+      </section>
+    </div>
+  </section>
+</section>
+
+            
+        </div>
+    </article>
+</section>
+
+
+<section id="alumni" class="scroll-section" data-scroll-section aria-label="Alumni">
+    <article class="post">
+        <div class="post-content">
+            
+            
+
+
+<h1>Alumni</h1>
+<p>ReSINC has been shaped by many talented researchers who have moved on to new challenges. We're proud of
+    their contributions and grateful for the time they spent with the group.</p>
+
+
+
+
+<h2 id="alumni-2017">2017</h2>
+
+
+<div class="person-card">
+    <div class="person-card__head">
+        <h3 class="person-card__name">Zeshan Ahmed Nobin</h3>
+        <p class="person-card__role">
+            <em>Founding President &amp; Low-level Security Lead</em>
+            
+            <span class="person-card__tenure">(2022 – 2023)</span>
+            
+        </p>
+    </div>
+
+    
+    <p class="person-card__now">
+        <strong>Now:</strong> Alan Paller Scholar, MS in Information Security Engineering (ISE) at SANS Technology Institute
+         Led binary exploitation and exploit development.
+    </p>
+    
+
+    
+    <div class="person-card__links">
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/zeshanahmednobin/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--github" href="https://github.com/NobinPegasus" target="_blank" rel="noopener noreferrer"
+    aria-label="GitHub">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.55C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+    </svg>
+    <span>GitHub</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--twitter" href="https://x.com/zeshan_nobin" target="_blank" rel="noopener noreferrer"
+    aria-label="Twitter">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+    <span>Twitter</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--website" href="https://nobinpegasus.github.io" target="_blank" rel="noopener noreferrer"
+    aria-label="Website">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+    </svg>
+    <span>Website</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:zeshanahmednobin@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+        
+        
+    </div>
+    
+</div>
+
+
+
+
+
+<h2 id="alumni-2018">2018</h2>
+
+
+<div class="person-card">
+    <div class="person-card__head">
+        <h3 class="person-card__name">Naimul Islam</h3>
+        <p class="person-card__role">
+            <em>Founding Vice President, Reverse Engineer and Digital Forensics Researcher</em>
+            
+            <span class="person-card__tenure">(2022 – 2024)</span>
+            
+        </p>
+    </div>
+
+    
+    <p class="person-card__now">
+        <strong>Now:</strong> Sr. Security Engineer at Axiler
+         Led the CTF team and contributed to reverse engineering research.
+    </p>
+    
+
+    
+    <div class="person-card__links">
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/kcnaiamh/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--github" href="https://github.com/kcnaiamh" target="_blank" rel="noopener noreferrer"
+    aria-label="GitHub">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.55C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+    </svg>
+    <span>GitHub</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--twitter" href="https://x.com/kcnaiamh" target="_blank" rel="noopener noreferrer"
+    aria-label="Twitter">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+    <span>Twitter</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--website" href="https://kcnaiamh.com/" target="_blank" rel="noopener noreferrer"
+    aria-label="Website">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+    </svg>
+    <span>Website</span>
+</a>
+
+
+        
+        
+    </div>
+    
+</div>
+
+
+
+<div class="person-card">
+    <div class="person-card__head">
+        <h3 class="person-card__name">Md. Ikram Hossain Mojumder</h3>
+        <p class="person-card__role">
+            <em>Founding Member, Web Application Security Researcher</em>
+            
+            <span class="person-card__tenure">(2022 – 2024)</span>
+            
+        </p>
+    </div>
+
+    
+    <p class="person-card__now">
+        <strong>Now:</strong> Jr. Cyber Security Engineer at TechnoNext
+         Contributed to penetration testing and security assessments of third-party software procured by Shahjalal University of Science and Technology (SUST), identifying security vulnerabilities and validating security readiness prior to production deployment.
+    </p>
+    
+
+    
+    <div class="person-card__links">
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/machine-farmer/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--github" href="https://github.com/Machine-farmer" target="_blank" rel="noopener noreferrer"
+    aria-label="GitHub">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.55C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+    </svg>
+    <span>GitHub</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--twitter" href="https://x.com/IkramRafiMj" target="_blank" rel="noopener noreferrer"
+    aria-label="Twitter">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+    <span>Twitter</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--website" href="https://ikramhossain.tech" target="_blank" rel="noopener noreferrer"
+    aria-label="Website">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+    </svg>
+    <span>Website</span>
+</a>
+
+
+        
+        
+    </div>
+    
+</div>
+
+
+
+
+
+<h2 id="alumni-2019">2019</h2>
+
+
+<div class="person-card">
+    <div class="person-card__head">
+        <h3 class="person-card__name">Irfan Nafiz Shahan</h3>
+        <p class="person-card__role">
+            <em>Founding Member, Cryptography and OSINT Lead</em>
+            
+            <span class="person-card__tenure">(2022 – 2023)</span>
+            
+        </p>
+    </div>
+
+    
+    <p class="person-card__now">
+        <strong>Now:</strong> Lecturer in the Department of Electrical and Electronic Engineering at Shahjalal University of Science and Technology (SUST)
+         Contributed to Cryptography research.
+    </p>
+    
+
+    
+    <div class="person-card__links">
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/irfannafizshahan/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--github" href="https://github.com/irfannafiz/" target="_blank" rel="noopener noreferrer"
+    aria-label="GitHub">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.55C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+    </svg>
+    <span>GitHub</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--website" href="https://irfannafiz.github.io" target="_blank" rel="noopener noreferrer"
+    aria-label="Website">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+    </svg>
+    <span>Website</span>
+</a>
+
+
+        
+        
+    </div>
+    
+</div>
+
+
+
+<div class="person-card">
+    <div class="person-card__head">
+        <h3 class="person-card__name">Al-Mubeen Khan Nabil</h3>
+        <p class="person-card__role">
+            <em>Founding Member, Miscellaneous and Web Lead</em>
+            
+            <span class="person-card__tenure">(2022 – 2023)</span>
+            
+        </p>
+    </div>
+
+    
+    <p class="person-card__now">
+        <strong>Now:</strong> R&amp;D Engineer at Krait Labs
+         Contributed to Web research.
+    </p>
+    
+
+    
+    <div class="person-card__links">
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--linkedin" href="https://www.linkedin.com/in/al-mubin-nabil-03270215b/" target="_blank" rel="noopener noreferrer"
+    aria-label="LinkedIn">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+    <span>LinkedIn</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--github" href="https://github.com/almubeen" target="_blank" rel="noopener noreferrer"
+    aria-label="GitHub">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.78 1.19 1.78 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.07 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.6.23 2.78.11 3.07.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.55C20.21 21.39 23.5 17.07 23.5 12 23.5 5.65 18.35.5 12 .5z" />
+    </svg>
+    <span>GitHub</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--website" href="https://almubinnabil.vercel.app/" target="_blank" rel="noopener noreferrer"
+    aria-label="Website">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" />
+    </svg>
+    <span>Website</span>
+</a>
+
+
+        
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="social-link social-link--email" href="mailto:almubinnabil@gmail.com" aria-label="Email">
+    <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+        <path fill="currentColor"
+            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+    <span>Email</span>
+</a>
+
+
+        
+        
+    </div>
+    
+</div>
+
+
+
+
+
+
+
+            
+        </div>
+    </article>
+</section>
+
+<section id="posts" class="scroll-section" data-scroll-section aria-label="Latest Blogs">
+    <div>
+        <h2 class="section-heading">Latest Blogs</h2>
+        <div class="post-list">
+            <div class="posts-info-container">
+                
+                
+<div class="post-info">
+    <div class="post-header">
+        <h1 class="post-title"><a href="https://resinc-sust.github.io/introducing-resinc/" style="color: inherit; text-decoration: none;">Introducing ReSINC</a></h1>
+        <div style="display: flex; gap: 1em; flex-wrap: wrap;">
+            <span>Reading time: 1 minutes</span>
+            <p>Posted at: September  3, 2026 • 12:00 AM</p>
+        </div>
+    </div>
+    <div class="post-short-body">
+        <p>
+            Welcome to the official blog of ReSINC (Research in Security, Intelligence &amp; Cyberthreat).
+        </p>
+    </div>
+</div>
+
+                
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+        
+        
+<footer class="site-footer"
+    style="text-align: center; padding: 40px 0; border-top: 1px solid #ffffff10; margin-top: 60px; color: #ffffff60; font-size: 14px;">
+    <p>&copy; 2026 ReSINC. All rights reserved.</p>
+</footer>
+
+    </div>
+</body>
+
+</html>
