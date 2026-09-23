@@ -178,16 +178,22 @@ apprentices:
     links:
       - kind: email
         url: arishamahdiya007@gmail.com
+      - kind: linkedin
+        url: https://www.linkedin.com/in/arisha-mahdiya-460967344
 
   - name: "Raisha Tabassum Rodshi"
     links:
       - kind: email
         url: raisharodshi06@gmail.com
+      - kind: linkedin
+        url: https://www.linkedin.com/in/raisha-tabassum-rodshi-9603ba411/
 
   - name: "Aparajita Saha"
     links:
       - kind: email
         url: ahana.aparajita@gmail.com
+      - kind: linkedin
+        url: https://www.linkedin.com/in/aparajita-saha-09bba43b7
 
   - name: "Mst. Nurunnahar Mim"
     links:
@@ -197,3 +203,19 @@ apprentices:
         url: https://x.com/Olik996179
       - kind: linkedin
         url: https://www.linkedin.com/in/olik-oll/
+
+  - name: "Jannatul Nahin Nisa"
+    links:
+      - kind: email
+        url: jnahin540@gmail.com
+      - kind: linkedin
+        url: https://www.linkedin.com/in/jannatul-nahin-182303419
+
+  - name: "Raifa Zaman"
+    links:
+      - kind: email
+        url: raifazaman5@gmail.com
+      - kind: linkedin
+        url: https://www.linkedin.com/in/raifa-zaman-b3a775437
+      - kind: twitter
+        url: https://x.com/RaifaZaman
