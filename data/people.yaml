@@ -1,3 +1,11 @@
+director:
+  name: "Dr. Md Forhad Rabbi, SMIEEE"
+  role: "Professor & Head"
+  affiliation: "Department of Computer Science & Engineering, Shahjalal University of Science and Technology (SUST), Bangladesh"
+  links:
+    - kind: email
+      url: frabbi-cse@sust.edu
+
 mentors:
   - name: "Zeshan Ahmed Nobin"
     slug: "zeshan-ahmed-nobin"

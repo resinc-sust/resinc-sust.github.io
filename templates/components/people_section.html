@@ -3,6 +3,29 @@
 {% if kind == "team" %}
 <h1>Team</h1>
 <p>ReSINC is made up of researchers working across security, intelligence, and cyberthreat topics.</p>
+{% if people.director %}
+<h2 class="sub-heading">Director</h2>
+<div class="director-card">
+    <div class="director-card__info">
+        <h3 class="director-card__name">{{ people.director.name }}</h3>
+        {% if people.director.role %}
+        <p class="director-card__role">{{ people.director.role }}</p>
+        {% endif %}
+        {% if people.director.affiliation %}
+        <p class="director-card__affiliation">{{ people.director.affiliation }}</p>
+        {% endif %}
+    </div>
+    {% if people.director.links and people.director.links | length > 0 %}
+    <div class="director-card__links">
+        {% for link in people.director.links %}
+        {% if link.kind and link.url %}
+        {{< social_link kind={link.kind} url={link.url} />}}
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endif %}
 <h2 class="sub-heading">Mentors</h2>
 <div class="mentor-list">
     {% for mentor in people.mentors %}

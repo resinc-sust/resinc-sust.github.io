@@ -44,6 +44,55 @@
   }
 }
 
+.director-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 16px 24px;
+  padding: 20px 24px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--surface-color);
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+  }
+
+  &__name {
+    margin: 0;
+    font-size: 20px;
+    color: var(--header-color);
+  }
+
+  &__role {
+    margin: 0;
+    font-size: 15px;
+    color: var(--text-color);
+  }
+
+  &__affiliation {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--muted-color);
+  }
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  @media (max-width: 560px) {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    padding: 18px 20px;
+  }
+}
+
 .mentor-page {
   .mentor-back {
     display: inline-block;
