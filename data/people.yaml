@@ -145,6 +145,13 @@ team:
 
     - name: "Mafinur Karim"
       tenure: "2025 - Present"
+      links:
+        - kind: linkedin
+          url: https://www.linkedin.com/in/mafinur-karim-b693b0275
+        - kind: github
+          url: https://github.com/mafinur47
+        - kind: email
+          url: mafinurk@gmail.com
 
 apprentices:
   - name: "Tanvir Ahmed"
